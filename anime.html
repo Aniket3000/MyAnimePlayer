@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="mousetrap.min.js" charset="utf-8"></script>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <script type="text/javascript" src="https://unpkg.com/popper.js@1.12.3"></script>
+</head>
+<body>
+  <div class="container" style="display:flex;flex-direction: column;justify-content: center;align-items: center;">
+    <input type="text" id="inputNameSearch" onblur="getNames()" style="margin:10px"/>
+    <div class="seeyourAnime" style="margin:10px"></div>
+    <input type="text" id="idselected" onblur="getdetails()" style="margin:20px">
+    <h1 id="epiCntView"> Episode - </h1>
+    <!-- <iframe src="" id="videotoplay" style="margin:20px;width: 60vw;height: 60vh;">
+    </iframe> -->
+    <!-- /////////////////// -->
+    <video id="video" style="width: 100%; height: 100%;" controls=""></video>
+    
+    <div class="buttons">
+      <button id="previous" style="margin-right:10px" onclick="prevClicked()">Previous</button>
+      <button id="next" onclick="nextClicked()">Next</button>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
