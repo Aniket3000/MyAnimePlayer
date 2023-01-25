@@ -2,6 +2,7 @@
 
 ## How to watch - STEPS:-
 
+0. Clone the repo then run the index.html file.
 1. First fill in the first field with the name of anime you want to watch.
 2. Don't press enter just leave the focus click anywhere else after entering.
 3. Then open console see if there are any results. If no then enter the right name or maybe the api used doesn't have that.
