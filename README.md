@@ -1,5 +1,4 @@
 # MyAnimePlayer
-My player
 
 ## How to watch - STEPS:-
 
