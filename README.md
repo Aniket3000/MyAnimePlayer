@@ -13,4 +13,4 @@
 7. Wait for a minute it'll run.
 
 
-# Happy watching UNINTERRUPTED WITHOUT ADS🌟🌟!!!
+# Happy watching uninterrupted WITHOUT ads!!!
