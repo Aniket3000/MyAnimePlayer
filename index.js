@@ -5,7 +5,7 @@ function getNames(){
 }
 let numoftimes = 0;
 function searchforanimenames(){
-  fetch(`https://gogoanime.consumet.org/search?keyw=${keyword}`)
+  fetch(`https://gogoanime.consumet.stream/search?keyw=${keyword}`)
   .then((res) => res.json())
   .then((animelist) => {
     console.log(animelist);
@@ -22,7 +22,7 @@ function getdetails(){
 
 
 function searchforepurl(){
-  fetch(`https://gogoanime.consumet.org/vidcdn/watch/${animeid}-episode-${ep}`)
+  fetch(`https://gogoanime.consumet.stream/vidcdn/watch/${animeid}-episode-${ep}`)
   .then((res) => res.json())
   .then((data) => {
     console.log(data);
@@ -50,13 +50,13 @@ function viewepisode(fileurl){
 
 function prevClicked(){
   ep--;
-  document.getElementById("videotoplay").src = "";
+  document.getElementById("video").src = "";
   searchforepurl();
 }
 
 function nextClicked(){
   ep++;
-  document.getElementById("videotoplay").src = "";
+  document.getElementById("video").src = "";
   searchforepurl();
 }
 
