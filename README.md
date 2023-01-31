@@ -1,6 +1,9 @@
 # MyAnimePlayer
 
 ## How to watch - STEPS:-
+### Warning - Sometimes it may happen that original API used in code won't run so follow this 
+https://github.com/riimuru/gogoanime-api ------- to see if some changes happened here or chose
+another api service maybe
 
 0. Clone the repo then run the index.html file.
 1. First fill in the first field with the name of anime you want to watch.
